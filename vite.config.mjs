@@ -36,7 +36,7 @@ export default defineConfig({
     }),
   ],
   build: {
-    outDir: "/build",
+    outDir: "build",
   },
   define: { "process.env": {} },
   resolve: {
